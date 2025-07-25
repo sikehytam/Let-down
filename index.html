@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Let Down - Radiohead</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #ffffff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ff4d6d;
+      margin-bottom: 20px;
+    }
+
+    #lyrics {
+      font-size: 1.2em;
+      white-space: pre-wrap;
+    }
+
+    .line {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Let Down - Radiohead</h1>
+  <div id="lyrics"></div>
+
+  <script>
+    const lines = [
+      "Transport, motorways and tramlines",
+      "Starting and then stopping",
+      "Taking off and landing",
+      "The emptiest of feelings",
+      "",
+      "Disappointed people clinging on to bottles",
+      "And when it comes it's so
